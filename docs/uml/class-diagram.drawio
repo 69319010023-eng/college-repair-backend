@@ -1,0 +1,143 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="GYs4LuHWvVpz63gh9rzC">
+    <mxGraphModel dx="1584" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cls_room" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#000000;strokeWidth=2;fontSize=14;" value="LabRoom" vertex="1">
+          <mxGeometry height="208" width="250" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_room_attr" parent="cls_room" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="- roomId: int&lt;br&gt;- roomCode: string&lt;br&gt;- roomName: string" vertex="1">
+          <mxGeometry height="82" width="250" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_room_line" parent="cls_room" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_room_meth" parent="cls_room" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="+ createRoom(): void&lt;br&gt;+ updateRoom(): void&lt;br&gt;+ getAllRooms(): List" vertex="1">
+          <mxGeometry height="82" width="250" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_comp" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#000000;strokeWidth=2;fontSize=14;" value="Computer" vertex="1">
+          <mxGeometry height="252" width="270" x="490" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_comp_attr" parent="cls_comp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="- computerId: int&lt;br&gt;- assetCode: string&lt;br&gt;- brandModel: string&lt;br&gt;- status: string&lt;br&gt;- roomId: int" vertex="1">
+          <mxGeometry height="126" width="270" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_comp_line" parent="cls_comp" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_comp_meth" parent="cls_comp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="+ createComputer(): void&lt;br&gt;+ updateComputer(): void&lt;br&gt;+ getRepairHistory(): List" vertex="1">
+          <mxGeometry height="82" width="270" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_user" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#000000;strokeWidth=2;fontSize=14;" value="User" vertex="1">
+          <mxGeometry height="230" width="260" x="60" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_user_attr" parent="cls_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="- userId: int&lt;br&gt;- username: string&lt;br&gt;- passwordHash: string&lt;br&gt;- fullName: string&lt;br&gt;- role: string" vertex="1">
+          <mxGeometry height="126" width="260" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_user_line" parent="cls_user" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_user_meth" parent="cls_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="+ login(): boolean&lt;br&gt;+ getProfile(): User" vertex="1">
+          <mxGeometry height="60" width="260" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_req" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#000000;strokeWidth=2;fontSize=14;" value="RepairRequest" vertex="1">
+          <mxGeometry height="362" width="290" x="480" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_req_attr" parent="cls_req" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="- requestId: int&lt;br&gt;- issueDetail: string&lt;br&gt;- status: string&lt;br&gt;- isUrgent: boolean&lt;br&gt;- createdAt: datetime&lt;br&gt;- reporterId: int&lt;br&gt;- computerId: int&lt;br&gt;- technicianId: int" vertex="1">
+          <mxGeometry height="192" width="290" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_req_line" parent="cls_req" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="290" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_req_meth" parent="cls_req" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="+ createRequest(): void&lt;br&gt;+ cancelRequest(): void&lt;br&gt;+ assignTechnician(): void&lt;br&gt;+ updateStatus(): void&lt;br&gt;+ getSummaryByRoom(): List" vertex="1">
+          <mxGeometry height="126" width="290" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_log" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#000000;strokeWidth=2;fontSize=14;" value="RepairLog" vertex="1">
+          <mxGeometry height="252" width="280" x="940" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_log_attr" parent="cls_log" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="- logId: int&lt;br&gt;- actionDetail: string&lt;br&gt;- statusChangedTo: string&lt;br&gt;- updatedAt: datetime&lt;br&gt;- requestId: int&lt;br&gt;- technicianId: int" vertex="1">
+          <mxGeometry height="148" width="280" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_log_line" parent="cls_log" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_log_meth" parent="cls_log" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" value="+ addRepairLog(): void&lt;br&gt;+ getLogsByRequest(): List" vertex="1">
+          <mxGeometry height="60" width="280" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" edge="1" parent="1" source="cls_room" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;fontSize=12;fontStyle=1;labelBackgroundColor=#ffffff;" target="cls_comp" value="ประกอบด้วย">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1_m1" connectable="0" parent="rel1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.75" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel1_m2" connectable="0" parent="rel1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.75" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel2" edge="1" parent="1" source="cls_comp" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;fontSize=12;fontStyle=1;labelBackgroundColor=#ffffff;" target="cls_req" value="มีประวัติแจ้งซ่อม">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_m1" connectable="0" parent="rel2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.75" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel2_m2" connectable="0" parent="rel2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.75" as="geometry">
+            <mxPoint x="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel3" edge="1" parent="1" source="cls_user" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;fontSize=12;fontStyle=1;labelBackgroundColor=#ffffff;" target="cls_req" value="เป็นผู้แจ้ง">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel3_m1" connectable="0" parent="rel3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.75" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel3_m2" connectable="0" parent="rel3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.75" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel4" edge="1" parent="1" source="cls_user" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;fontSize=12;fontStyle=1;labelBackgroundColor=#ffffff;" target="cls_req" value="รับผิดชอบซ่อม">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel4_m1" connectable="0" parent="rel4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..1" vertex="1">
+          <mxGeometry relative="1" x="-0.75" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel4_m2" connectable="0" parent="rel4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.75" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel5" edge="1" parent="1" source="cls_req" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;fontSize=12;fontStyle=1;labelBackgroundColor=#ffffff;" target="cls_log" value="มีบันทึกการซ่อม">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel5_m1" connectable="0" parent="rel5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.75" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel5_m2" connectable="0" parent="rel5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.75" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

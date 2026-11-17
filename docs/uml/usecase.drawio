@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="8AMUvqMi-1S_MzYB4524">
+    <mxGraphModel dx="1315" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;verticalAlign=top;fontSize=15;fontStyle=1;spacingTop=8;" value="ระบบแจ้งซ่อมคอมพิวเตอร์และอุปกรณ์ของวิทยาลัย" vertex="1">
+          <mxGeometry height="750" width="660" x="310" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="act_rep" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontSize=13;fontStyle=1;" value="ผู้แจ้ง&lt;br&gt;(นักศึกษา/ครูผู้สอน)" vertex="1">
+          <mxGeometry height="80" width="36" x="97" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="act_mgr" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontSize=13;fontStyle=1;" value="หัวหน้างาน&lt;br&gt;อาคารสถานที่ฯ" vertex="1">
+          <mxGeometry height="80" width="36" x="97" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="act_tech" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontSize=13;fontStyle=1;" value="ช่างเทคนิค" vertex="1">
+          <mxGeometry height="80" width="36" x="1122" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="uc01" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;strokeWidth=2;fontSize=12;fontStyle=1;" value="UC-01 เข้าสู่ระบบ&lt;br&gt;(Login)" vertex="1">
+          <mxGeometry height="70" width="188" x="546" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="uc02" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-02 แจ้งซ่อม&lt;br&gt;คอมพิวเตอร์" vertex="1">
+          <mxGeometry height="70" width="200" x="335" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uc03" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-03 ดูสถานะและ&lt;br&gt;ประวัติการแจ้งซ่อม" vertex="1">
+          <mxGeometry height="74" width="210" x="330" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="uc04" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-04 ยกเลิกคำขอ&lt;br&gt;แจ้งซ่อม" vertex="1">
+          <mxGeometry height="70" width="200" x="335" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc09" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-09 ดูรายงานสรุป&lt;br&gt;แยกตามห้อง" vertex="1">
+          <mxGeometry height="74" width="210" x="330" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-10 มอบหมายงาน&lt;br&gt;ด่วนให้ช่าง" vertex="1">
+          <mxGeometry height="74" width="210" x="330" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-11 จัดการข้อมูลห้อง&lt;br&gt;และเครื่องคอมพิวเตอร์" vertex="1">
+          <mxGeometry height="78" width="220" x="325" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-05 ดูรายการ&lt;br&gt;งานรอซ่อม" vertex="1">
+          <mxGeometry height="70" width="204" x="743" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="uc06" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-06 เลือกรับ&lt;br&gt;งานซ่อม" vertex="1">
+          <mxGeometry height="70" width="200" x="745" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="uc07" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-07 อัปเดตสถานะ&lt;br&gt;และบันทึกการซ่อม" vertex="1">
+          <mxGeometry height="78" width="220" x="735" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="uc08" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=12;" value="UC-08 ดูประวัติการซ่อม&lt;br&gt;ของเครื่อง" vertex="1">
+          <mxGeometry height="74" width="210" x="740" y="643" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_1" edge="1" parent="1" source="act_rep" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc02" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_2" edge="1" parent="1" source="act_rep" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc03" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_3" edge="1" parent="1" source="act_rep" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc04" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_4" edge="1" parent="1" source="act_mgr" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc09" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_5" edge="1" parent="1" source="act_mgr" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_6" edge="1" parent="1" source="act_mgr" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_7" edge="1" parent="1" source="act_tech" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc05" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_8" edge="1" parent="1" source="act_tech" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc06" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_9" edge="1" parent="1" source="act_tech" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc07" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_10" edge="1" parent="1" source="act_tech" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" target="uc08" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_1" edge="1" parent="1" source="uc02" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_2" edge="1" parent="1" source="uc03" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_3" edge="1" parent="1" source="uc04" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_4" edge="1" parent="1" source="uc05" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_5" edge="1" parent="1" source="uc06" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_6" edge="1" parent="1" source="uc07" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_7" edge="1" parent="1" source="uc08" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_8" edge="1" parent="1" source="uc09" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_9" edge="1" parent="1" source="uc10" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_10" edge="1" parent="1" source="uc11" style="endArrow=open;endSize=10;dashed=1;html=1;strokeWidth=1.5;strokeColor=#333333;fontSize=11;labelBackgroundColor=#ffffff;" target="uc01" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
